@@ -15,7 +15,7 @@ class Counter
        return $this; // needs to be return $this instead of return line 14 due to the encapsulation factor of the counter class
         
     }
-    public function count() : int // needs to be an integer
+    public function count() : int // needs to be an integer, was corrected by vs code
     {
         //needs to add the increment total up after its been used
         return $this->increment;
